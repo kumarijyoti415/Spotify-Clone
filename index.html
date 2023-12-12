@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option">
+            <i class="fa-solid fa-house"></i>
+            <a href="#" style="opacity: 1">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-options">
+              <img src="img/library_icon.png" alt="" height="25px" />
+              <a href="#" id="lib">Your Library</a>
+            </div>
+            <div class="icon">
+              <i class="fa-regular fa-plus"></i>
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-boxes">
+            <div class="button">
+              <button id="playlist">Playlists</button>
+              <button id="Artists">Artists</button>
+            </div>
+            <div class="search-box">
+              <div class="searchbox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="search-icon">
+                <a href="#">Recent</a><i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="liked">
+              <img src="img/liked.png" /><a href="#"
+                >Liked Songs <span><p>Playlist.7 songs</p></span></a
+              >
+            </div>
+            <div class="liked">
+              <img src="img/dog-fotor-20230706141911.png" /><a href="#">
+                Billie Eilish <span><p>Artist</p></span></a
+              >
+            </div>
+            <div class="liked">
+              <img src="img/dog-fotor-20230706141911.png" /><a href="#"
+                >DIVINE <span><p>Artist</p></span></a
+              >
+            </div>
+            <div class="liked">
+              <img src="img/dog-fotor-20230706141911.png" /><a href="#"
+                >Neha Kakkar <span><p>Artist</p></span></a
+              >
+            </div>
+            <div class="liked">
+              <img src="img/dog-fotor-20230706141911.png" /><a href="#"
+                >Badshah<span><p>Artist</p></span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="header">
+          <img src="img/backward_icon.png" alt="" /><img
+            src="img/forward_icon.png"
+            alt=""
+          />
+        </div>
+        <div class="recently">
+          <a href="#">Recently Played</a>
+        </div>
+        <div class="card-section-1">
+          <div class="card-1">
+            <div class="card-1 img">
+              <img src="img/card1img.jpeg" alt="" id="card-img" />
+              <p class="card-title">Top 5-Global</p>
+              <p class="card-info">
+                Your daily update of the most played tracks
+              </p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/king.jfif" alt="" class="card-img" />
+              <p class="card-title">Champagne Talk</p>
+              <p class="card-info">King</p>
+            </div>
+          </div>
+        </div>
+        <div class="recently">
+          <a href="#">Made For JYOTI</a>
+          <a href="#" class="show">Show All</a>
+        </div>
+        <div class="card-section-1">
+          <div class="card-1">
+            <div class="card-1 img">
+              <img src="img/card3img.jpeg" alt="" id="card-img" />
+              <p class="card-title">Daily Mix 1</p>
+              <p class="card-info">lofi-music</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/card4img.jpeg" alt="" class="card-img" />
+              <p class="card-title">Daily Mix 2</p>
+              <p class="card-info">Action</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/card5img.jpeg" alt="" class="card-img" />
+              <p class="card-title">Daily Mix 3</p>
+              <p class="card-info">Top Songs Globally</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/jawani.jfif" alt="" class="card-img" />
+              <p class="card-title">Daily Mix 4</p>
+              <p class="card-info">Love,romance</p>
+            </div>
+          </div>
+
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/lovely.jfif" alt="" class="card-img" />
+              <p class="card-title">Daily Mix 7</p>
+              <p class="card-info">Sad songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recently">
+          <a href="#">Popular radio</a>
+          <a href="#" class="show">Show All</a>
+        </div>
+        <div class="card-section-1">
+          <div class="card-1">
+            <div class="card-1 img">
+              <img src="img/radio" alt="" id="card-img" />
+              <p class="card-title">Arijit Singh Radio</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/radio2" alt="" class="card-img" />
+              <p class="card-title">Sidhu Moose..</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/radio3" alt="" class="card-img" />
+              <p class="card-title">KK Radio</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/radio4" alt="" class="card-img" />
+              <p class="card-title">Jubin Nautiyal.</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/radio5" alt="" class="card-img" />
+              <p class="card-title">Udit Narayan..</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+        </div>
+        <div class="recently">
+          <a href="#">Sounds of India</a>
+          <a href="#" class="show">Show All</a>
+        </div>
+        <div class="card-section-1">
+          <div class="card-1">
+            <div class="card-1 img">
+              <img src="img/mumbai.jfif" alt="" id="card-img" />
+              <p class="card-title">The Sound of..</p>
+              <p class="card-info">
+                The songs that define,unite and distinguish...
+              </p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/delhi.jfif" alt="" class="card-img" />
+              <p class="card-title">Sidhu Moose..</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/bengaluru.jfif" alt="" class="card-img" />
+              <p class="card-title">KK Radio</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/chennai.jfif" alt="" class="card-img" />
+              <p class="card-title">Jubin Nautiyal.</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+          <div class="card-2">
+            <div class="card-1 img">
+              <img src="img/kolkata.jfif" alt="" class="card-img" />
+              <p class="card-title">Udit Narayan..</p>
+              <p class="card-info">By Spotify</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="play-section">
+          <img src="img/album_picture.jpeg" alt="" class="img-icon" />
+          <img src="img/album_icon1.png" alt="" />
+          <img src="img/album_icon2.png" alt="" />
+        </div>
+        <div class="control">
+          <img src="img/player_icon1.png" alt="" />
+          <img src="img/player_icon2.png" alt="" />
+          <img src="img/player_icon3.png" alt="" />
+          <img src="img/player_icon4.png" alt="" />
+          <img src="img/player_icon5.png" alt="" />
+        </div>
+        <div class="player">
+          <img src="img/controls_icon1.png" alt="" />
+          <img src="img/controls_icon2.png" alt="" />
+          <img src="img/controls_icon3.png" alt="" />
+          <img src="img/controls_icon4.png" alt="" />
+          <img src="img/controls_icon5.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
